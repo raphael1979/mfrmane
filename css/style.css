@@ -41,3 +41,21 @@ p {
 	margin: 5%;
 	font-size: 17px;
 }
+
+/*Lesle*/
+
+#carrousel{
+	padding: 50px;
+}
+
+#connexion{
+	text-align: right;
+}
+
+.carousel-page{
+	width:100%;
+	height:400px;
+	background-color:#5f666d;
+	color:white;
+}
+
