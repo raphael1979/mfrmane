@@ -24,3 +24,14 @@ footer {
 	padding:1% 
 	
 }
+#hautDePage {
+	height: 100px;
+	background-color: grey
+}
+
+#btn-up {
+	display: none; 
+	position:fixed; 
+	bottom:10px; 
+	right: 10px;
+}
