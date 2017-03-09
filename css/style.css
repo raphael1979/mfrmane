@@ -1,0 +1,14 @@
+body {
+    padding-top: 70px;
+}
+
+footer{
+    background-color: rgb(27, 70, 15);
+    padding: 30;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    display: flex;
+
+
+}
