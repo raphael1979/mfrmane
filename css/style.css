@@ -1,0 +1,12 @@
+body { 
+	padding-top: 70px; 
+}
+.nav-center {
+	width: 40vw;
+	margin:0 auto;
+}
+footer {
+	text-align: center;
+	background-color: blue;
+	margin:20px;
+}
