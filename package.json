@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/raphael1979/mfrmane/issues"
   },
-  "homepage": "https://github.com/raphael1979/mfrmane#readme"
+  "homepage": "https://github.com/raphael1979/mfrmane#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
