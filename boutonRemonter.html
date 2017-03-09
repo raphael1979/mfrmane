@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MFR mane</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<header id="hautDePage" style="height: 400px; background-color: grey">Header</header>
+	<section>
+		<div style="height: 400px; background-color: lightgrey">Paragraphe 1</div>
+		<div style="height: 400px; background-color: lightgrey">Paragraphe 2</div>
+		<div style="height: 400px; background-color: lightgrey">Paragraphe 3
+		<br />
+		<a href="#hautDePage">UP</a>
+		</div>
+		<div style="height: 400px; background-color: lightgrey">Paragraphe 4
+			<br />
+			<a href="#hautDePage"><img scr="up.png"></a>
+			<br />
+			<a href="#hautDePage">UP</a>
+			<br />
+			<button value="Nom du bouton" OnClick="window.location.href='#hautDePage'">UP</button>
+			<button id="btn_up" style="display: none; position:fixed; bottom:10px; right: 10px;"><span  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button>
+			
+		</div>
+
+	</section>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		  $('#btn_up').click(function() {
+		    $('html,body').animate({scrollTop: 0}, 'slow');
+		  });
+		  
+		   $(window).scroll(function(){
+		   	//console.log($(window).height(), $(window).scrollTop());
+		     if($(window).scrollTop() < 100){
+		     	//console.log('<' + $(window).height());
+		        $('#btn_up').fadeOut();
+		     }else{
+		        $('#btn_up').fadeIn();
+		        //console.log('keep down...')
+		     }
+		  });
+		});
+	</script>
+</body>
+</html>

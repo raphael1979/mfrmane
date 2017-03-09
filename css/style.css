@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body { 
 	padding-top: 70px; 
 }
@@ -10,3 +11,21 @@ footer {
 	background-color: blue;
 	margin:20px;
 }
+=======
+.titre {
+	color:#1FA22E;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+.topo{
+	margin: 15 20 0 15px;
+	border:1px 
+	solid black
+	padding:1% 
+
+	
+	
+}
+>>>>>>> fbd381a4248286445bfc602fa7915f696574a12d
