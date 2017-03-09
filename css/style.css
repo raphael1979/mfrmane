@@ -3,12 +3,9 @@ body {
 }
 
 footer{
-    background-color: rgb(27, 70, 15);
+    background-color: #1fa22e;
     padding: 30;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    display: flex;
-
-
-}
+    padding-top: 5px;
+    padding-left : 40px;
+    text-align : center;
+    }
