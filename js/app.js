@@ -20,3 +20,9 @@ $(document).ready(function(){
 		 });
 	});
 });
+	// $(function() {
+	// 	$('li>a').click(function() {
+	// 		var pos=$($(this).attr('href')).offset().top;
+	// 		$('body ,html').animate({scrollTop:pos},1000);
+	// 	})
+	// }) ;
