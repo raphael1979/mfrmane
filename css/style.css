@@ -1,13 +1,8 @@
 
 body { 
 	padding-top: 70px; 
-	background-image:url(images/fond.jpg);
+	background-image:url(../images/fond.jpg);
 	background-repeat: repeat;
-}
-
-
-body {
-	padding-top: 70px;
 }
 
 footer{
@@ -21,14 +16,18 @@ footer{
 #mentions{
 	text-align: center;
 }
-.blabla{
+.logo {
 	display : inline-block;
+
 }
 
 .nav-center {
 	width: 40vw;
 	margin:0 auto;
 	background-color:;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #F9B200;
 }
 
 .titre {
