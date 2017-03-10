@@ -1,12 +1,12 @@
 
-body { 
-	padding-top: 70px; 
-	background-image:url(../images/fond.jpg);
-	background-repeat: repeat;
+body {
+	padding-top: 70px;
+	background-image:url(../images/fond2.jpg);
+	background-repeat: round;
 }
 
 footer{
-	background-color: #1fa22e;
+	background-color: #F9B200;
 	padding: 30;
 	padding-top: 5px;
 	padding-left : 40px;
@@ -31,10 +31,11 @@ footer{
 }
 
 .titre {
-	color:#1FA22E;
+	color:#F9B200;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	text-decoration-style: bold;
 }
 
 }
@@ -49,6 +50,7 @@ footer{
 	border:1px
 	solid black
 	padding:1%
+	color: white;
 }
 #hautDePage {
 	height: 100px;
@@ -64,6 +66,7 @@ footer{
 p {
 	margin: 5%;
 	font-size: 17px;
+	color: white;
 }
 
 /*Lesle*/
@@ -83,5 +86,3 @@ p {
 	background-color:#5f666d;
 	color:white;
 }
-
-

@@ -15,7 +15,7 @@ $(document).ready(function(){
 		     	$('#btn_up').fadeOut();
 		     }else{
 		     	$('#btn_up').fadeIn();
-		     	console.log('keep down...')
+		     	//console.log('keep down...')
 		     }
 		 });
 	});
