@@ -26,3 +26,4 @@ $(document).ready(function(){
 	// 		$('body ,html').animate({scrollTop:pos},1000);
 	// 	})
 	// }) ;
+

@@ -1,6 +1,8 @@
 
-body {
-	padding-top: 70px;
+body { 
+	padding-top: 70px; 
+	background-image:url(../images/fond.jpg);
+	background-repeat: repeat;
 }
 
 footer{
@@ -14,15 +16,18 @@ footer{
 #mentions{
 	text-align: center;
 }
-.blabla{
+.logo {
 	display : inline-block;
-}
 
+}
 
 .nav-center {
 	width: 40vw;
 	margin:0 auto;
 	background-color:;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #F9B200;
 }
 
 .titre {
@@ -34,13 +39,16 @@ footer{
 
 }
 .topo{
+
+	margin-left: auto;
+	margin-right: auto;
 	margin: 15 20 0 15px;
+	border:1px solid black;
+	padding:1%;
 	background-color: green;
 	border:1px
 	solid black
 	padding:1%
-
-
 }
 #hautDePage {
 	height: 100px;
