@@ -1,8 +1,8 @@
 
 body {
 	padding-top: 70px;
-	/*background-image:url(../images/fond2.jpg);
-	background-repeat: round;*/
+	background-image:url(../images/fond2.jpg);
+	background-repeat: round;
 	display:flex;
 	justify-content:center;
 }
