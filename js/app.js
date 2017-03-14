@@ -20,10 +20,24 @@ $(document).ready(function(){
 		 });
 	});
 });
-	// $(function() {
-	// 	$('li>a').click(function() {
-	// 		var pos=$($(this).attr('href')).offset().top;
-	// 		$('body ,html').animate({scrollTop:pos},1000);
-	// 	})
-	// }) ;
 
+var timerIn = 200;
+var timerOut = 200;
+$('ul.nav li.dropdown').hover(function() {
+	$(this).find('> .dropdown-menu').stop(true, true).fadeIn(timerIn);
+	$(this).addClass('open');
+}, function() {
+	$(this).find('> .dropdown-menu').stop(true, true).fadeOut(timerOut);
+	$(this).removeClass('open');
+
+// //Facebook feed
+// //<div id="fb-root"></div>
+// (function(d, s, id) {
+// 	var js, fjs = d.getElementsByTagName(s)[0];
+// 	if (d.getElementById(id)) return;
+// 	js = d.createElement(s); js.id = id;
+// 	js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
+// 	fjs.parentNode.insertBefore(js, fjs);
+// }(document, 'script', 'facebook-jssdk'));
+	//Fin Facebook Feed
+});
