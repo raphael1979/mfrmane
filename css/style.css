@@ -34,6 +34,9 @@ footer{
 	margin:0 auto;
 	
 }
+.navbar-nav{
+	display:flex;
+}
 .navbar-default .navbar-nav>li>a {
 	color: #F9B200;
 }
@@ -98,4 +101,13 @@ p {
 
 .mb-1{
 	color:black;
+	font-size:17px;
+}
+h3{
+	color:#F9B200 !important;
+}
+.panel-body{
+	position:fixed;
+	top:-12px;
+	right:10px;
 }
