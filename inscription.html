@@ -85,13 +85,13 @@
 			<div id="contenu" class="col-xs-8">
 				<!-- essaie -->
 				<div id="content" class="col-xs-12">
-					<h1>Formulaire d'inscription</h1>
+					<h1 class="formulaire">Formulaire d'inscription</h1>
 					<form action="" method="post">
 						<fieldset>
 							<legend>Elève</legend>
 							<div>
 								<label for="civilite">Civilité</label>
-								<select>
+								<select class="boite">
 									<option value="" selected>Mr</option>
 									<option value="valeurunique">Mme</option>
 									<option value="2evaleurunique">Mlle</option>
@@ -99,76 +99,97 @@
 							</div>
 							<div>
 								<label for="name">Nom : </label>
-								<input type="text" id="name" name="nom" required autofocus>
+								<input class="boite" type="text" id="name" name="nom" required autofocus>
 							</div>
 							<div>
 								<label for="prenom">Prénom : </label>
-								<input type="text" id="prenom" name="prenom" required>
+								<input class="boite" type="text" id="prenom" name="prenom" required>
 							</div>
 							<div>
 								<label for="date">Date de naissance : </label>
-								<input type="date" id="date" name="date_de_naissance" required>
+								<input class="boite" type="date" id="date" name="date_de_naissance" required>
 							</div>
 							<div>
 								<label for="adresse">Adresse : </label>
-								<input type="text" id="adresse" name="adresse" required>
+								<input class="boite" type="text" id="adresse" name="adresse" required>
 							</div>
 							<div>
 								<label for="code_postal">Code Postal</label>
-								<input type="text" id="code" name="code" required>
+								<input class="boite" type="text" id="code" name="code" required>
 							</div>
 							<div>
 								<label for="ville">Ville : </label>
-								<input type="name" id="ville" name="ville" required>
+								<input class="boite" type="name" id="ville" name="ville" required>
 							</div>
 							<div >
 								<label for="tel">Téléphone : </label>
-								<input type="tel" name="tel" id="tel" required>
+								<input class="boite" type="tel" name="tel" id="tel" required>
 								<span id="spnPhoneStatus"></span>
 							</div>
 							<div>
 								<label for="email">Mail : </label>
-								<input type="email" name="email" id="email" required>
-							</div>
-						</fieldset>
-						<fieldset>
-							<legend>Représentant Légal</legend>
-							<div>
-								<label for="name">Nom : </label>
-								<input type="text" id="name" name="nom" required autofocus>
+								<input class="boite" type="email" name="email" id="email" required>
 							</div>
 							<div>
-								<label for="prenom">Prénom : </label>
-								<input type="text" id="prenom" name="prenom" required>
+								<label for="statut">Statut Actuel : </label>
+								<select class="boite">
+									<option value="" selected>Scolaire</option>
+									<option value="valeurunique">Aprenti</option>
+									<option value="2evaleurunique">Autres</option>
+								</select>
+								<div>
+									<label>Précisez : </label>
+									<input class="boite" type="text">
+								</div>
+							</fieldset>
+							<fieldset>
+								<legend>Représentant Légal</legend>
+								<div>
+									<label for="name">Nom : </label>
+									<input class="boite" type="text" id="name" name="nom" required>
+								</div>
+								<div>
+									<label for="prenom">Prénom : </label>
+									<input class="boite" type="text" id="prenom" name="prenom" required>
+								</div>
+								<div>
+									<label for="prenom">Rôle : </label>
+									<input class="boite" type="text" id="prenom" name="prenom" required>
+								</div>
+							</fieldset>
+							<fieldset class="checkbox">
+								<legend>Formations</legend>
+								<ul>
+									<li><input type="checkbox" name="choix1" value="1">4ème - 3ème</li>
+									<li><input type="checkbox" name="choix2" value="2">Bac Pro servives Aux Personnes et Aux territoires (SAPAT)</li>
+									<li><input type="checkbox" name="choix3" value="3">Diplômes d'Etat d'Accompagnement Educatif et Social</li>
+									<li><input type="checkbox" name="choix4" value="4">Validation des Aquis de l'expérience pour le diplôme d'accompagnement Educatif et Social</li>
+								</ul>
+							</fieldset>
+							<fieldset>
+								<legend>Observations</legend>
+								<textarea class="boite" rows="5" cols="50" id="hobbys" name="hobbys" required placeholder="Max 200 caractères ..."></textarea>
+							</fieldset>
+							<fieldset>
+								<legend>Comment avez-vous découvert les Maisons Familiales Rurales ?</legend>
+								<select class="boite">
+									<option value="" selected>CIO</option>
+									<option value="valeurunique">ONISEP</option>
+									<option value="2evaleurunique">Internet</option>
+									<option value="3evaleurunique">Collège ou Lycée</option>
+									<option value="4evaleurunique">Par relation</option>
+								</select>
+							</fieldset>		
+							<div class="button">
+								<input type="submit" class="boite" value="envoyer" id="envoyer">
+								<input type="reset" class="boite" value="effacer tout">
 							</div>
-							<div>
-								<label for="prenom">Rôle : </label>
-								<input type="text" id="prenom" name="prenom" required>
-							</div>
-						</fieldset>
-						<fieldset>
-							<legend>Formations</legend>
-							<input type="checkbox" name="choix1" value="1">4ème - 3ème
-							<input type="checkbox" name="choix2" value="2">Bac Pro servives Aux Personnes et Aux territoires (SAPAT) <input type="checkbox" name="choix3" value="3">Diplômes d'Etat d'Accompagnement Educatif et Social
-							<input type="checkbox" name="choix4" value="4">Validation des Aquis de l'expérience pour le diplôme d'accompagnement Educatif et Social
-						</fieldset>
-						<div>
-							<fieldset></fieldset>
-							<label for="hobbys">Observations :</label>
-							<textarea rows="5" cols="50" id="hobbys" name="hobbys" required placeholder="Max 200 caractères"></textarea>
-						</div>	
-					</fieldset>					
-					<div class="button">
-						<input type="submit" value="envoyer" id="envoyer">
-						<input type="reset" value="effacer tout">
-
+						</form>
 					</div>
-				</form>
-			</div>
-		</div>
-		<div id="aside" class="col-xs-4 text-right">
+				</div>
+				<div id="aside" class="col-xs-4 text-right">
 
-			<!-- <div class="row"> -->
+					<!-- <div class="row"> -->
 					<!-- <form class="navbar-form navbar-right inline-form">
 						<div class="form-group">
 							<input type="search" class="input-sm form-control" placeholder="Recherche">

@@ -100,7 +100,7 @@ p {
 	color:black;
 }
 /*css formulaire*/
-h1{
+.formulaire {
 	text-align: center;
 	color: white;
 }
@@ -148,3 +148,9 @@ h3{
 legend {
 	color: white;
 } 
+.checkbox{
+
+}
+.boite{
+	color: black;
+}
