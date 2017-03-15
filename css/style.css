@@ -38,6 +38,7 @@ footer{
 
 }
 .navbar-nav{
+
 	display:flex;
 }
 .navbar-default .navbar-nav>li>a {
@@ -61,6 +62,7 @@ footer{
 #btn_up {
 	display: none;
 	position:fixed;
+	z-index:5;
 	bottom:10px;
 	right: 10px;
 }
@@ -101,7 +103,9 @@ p {
 }
 /*css formulaire*/
 h1{
-	text-align: center;
+	text-align: left;
+	color:#F9B200;
+
 }
 form {
 	margin: 0 auto;

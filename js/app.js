@@ -20,7 +20,7 @@ $(document).ready(function(){
 	});
 });
 //Lesly
-		$ ('#carousel').carousel({interval : 2000}) ;
+$ ('#carousel').carousel({interval : 2000}) ;
 
 var timerIn = 200;
 var timerOut = 200;
