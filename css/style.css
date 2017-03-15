@@ -18,7 +18,7 @@ footer{
 	max-width: 1500px;
 }
 #contenutotal{
-	border:1px dashed lightgrey;
+
 	background-color:rgba(0,0,0,0.4);
 	/*border:1px dashed lightgrey;*/
 	margin-bottom:20px;
@@ -31,14 +31,18 @@ footer{
 	margin-top:-10px;
 	position:fixed;
 	left: 30px;
-
+	height:105px;
+	position:fixed;
+	top:5px;
+	left:50px;
 }
 .nav-center {
 	width: 50vw;
 	margin:0 auto;
-	
+
 }
 .navbar-nav{
+
 	display:flex;
 }
 .navbar-default .navbar-nav>li>a {
@@ -59,16 +63,15 @@ footer{
 	height: 100px;
 	background-color: grey
 }
-
 #btn_up {
 	display: none;
 	position:fixed;
+	z-index:5;
 	bottom:10px;
 	right: 10px;
 	z-index: 5;
 }
 p {
-
 	margin: 5%;
 	font-size: 17px;
 	color: black;
@@ -77,61 +80,58 @@ p {
 	font-size: 22px;
 }
 /*Lesle*/
-
 #conteneur{
 	padding: 50px;
 }
 #carousel-inner{
-	height:550px;
 
 }
-
-#connexion{
-	text-align: right;
-}
-
 .carousel-page{
-
 	width:100%;
-	height:550px;
+
 	background-color: white;
 	color:white;
 }
-
+#connexion{
+	text-align: right;
+}
 .img-responsive{
 	margin:0px auto;
 	max-height:100%;
 }
-
 #news{
 	margin-top:30px;
 	color:black;
 }
-
 .mb-1{
 	color:black;
-
 }
 /*css formulaire*/
-h1{
+
+.formulaire {
 	text-align: center;
+	color: white;
+}
+
+h1{
+	text-align: left;
+	color:#F9B200;
+
 }
 form {
 	margin: 0 auto;
 	width: 450px;
-
+	color: white;
 	padding: 1em;
 	border: 1px solid #CCC;
 	border-radius: 1em;
 }
-
 form div + div {
 	margin-top: 1em;
 }
 input:invalid {
 	border: 1px solid red;
 }
-
 input:valid {
 	border: 1px solid green;
 }
@@ -177,3 +177,41 @@ h3{
 	text-align: center;
 }
 
+.formation{
+	color : white;
+	width : 100%;
+}
+
+.titre-formation{
+	color : #F9B200;
+}
+/*lesly*/
+.page-header{
+	color: white;
+}
+.controls{
+	color: white;
+	text-align: left;
+}
+
+legend {
+	color: white;
+}
+.checkbox{
+
+
+}
+.boite{
+	color: black;
+}
+#myModal{
+	position:relative;
+	top:-1300px;
+	left:475px;
+	width:400px;
+	height:260px;
+	background-color:white;
+}
+#modalP{
+	color:black;
+}
