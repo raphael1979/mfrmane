@@ -1,7 +1,7 @@
 body {
 	padding-top: 70px;
 	background-image:url(../images/fond2.jpg);
-	background-repeat: round;*/
+	background-repeat: round;
 	display:flex;
 	justify-content:center;
 }
@@ -38,6 +38,7 @@ footer{
 
 }
 .navbar-nav{
+
 	display:flex;
 }
 .navbar-default .navbar-nav>li>a {
@@ -61,6 +62,7 @@ footer{
 #btn_up {
 	display: none;
 	position:fixed;
+	z-index:5;
 	bottom:10px;
 	right: 10px;
 }
@@ -100,13 +102,21 @@ p {
 	color:black;
 }
 /*css formulaire*/
-h1{
+
+.formulaire {
 	text-align: center;
+	color: white;
+}
+
+h1{
+	text-align: left;
+	color:#F9B200;
+
 }
 form {
 	margin: 0 auto;
 	width: 450px;
-
+	color: white;
 	padding: 1em;
 	border: 1px solid #CCC;
 	border-radius: 1em;
@@ -152,4 +162,34 @@ h3{
 
 .titre-formation{
 	color : #F9B200;
+
+/*lesly*/
+.page-header{
+	color: white;
+}
+.controls{
+	color: white;
+	text-align: left;
+}
+
+legend {
+	color: white;
+}
+.checkbox{
+
+
+}
+.boite{
+	color: black;
+}
+#myModal{
+	position:relative;
+	top:-1300px;
+	left:475px;
+	width:400px;
+	height:260px;
+	background-color:white;
+}
+#modalP{
+	color:black;
 }
