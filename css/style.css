@@ -1,7 +1,7 @@
 body {
 	padding-top: 70px;
 	background-image:url(../images/fond2.jpg);
-	background-repeat: round;*/
+	background-repeat: round;
 	display:flex;
 	justify-content:center;
 }
@@ -105,12 +105,11 @@ p {
 h1{
 	text-align: left;
 	color:#F9B200;
-
 }
 form {
 	margin: 0 auto;
 	width: 450px;
-
+	color: white;
 	padding: 1em;
 	border: 1px solid #CCC;
 	border-radius: 1em;
@@ -148,3 +147,6 @@ h3{
 	top:-12px;
 	right:10px;
 }
+legend {
+	color: white;
+} 
