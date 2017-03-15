@@ -182,6 +182,7 @@ legend {
 .boite{
 	color: black;
 }
+/*Debut Modal*/
 #myModal{
 	position:relative;
 	top:-1300px;
@@ -193,3 +194,4 @@ legend {
 #modalP{
 	color:black;
 }
+/*Fin Modal*/
