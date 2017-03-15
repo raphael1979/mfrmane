@@ -5,8 +5,7 @@ $(document).ready(function(){
 		$('#btn_up').click(function() {
 			$('html,body').animate({scrollTop: 0}, 'slow');
 		});
-		//Lesly
-		$ ('#carousel').carousel({interval : 2000}) ;
+		
 
 		$(window).scroll(function(){
 		   	//console.log($(window).height(), $(window).scrollTop());
@@ -20,6 +19,8 @@ $(document).ready(function(){
 		 });
 	});
 });
+//Lesly
+		$ ('#carousel').carousel({interval : 2000}) ;
 
 var timerIn = 200;
 var timerOut = 200;
