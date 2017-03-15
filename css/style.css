@@ -150,3 +150,15 @@ h3{
 legend {
 	color: white;
 } 
+
+#myModal{
+	position:relative;
+	top:-1300px;
+	left:475px;
+	width:400px;
+	height:260px;
+	background-color:white;
+}
+#modalP{
+	color:black;
+}

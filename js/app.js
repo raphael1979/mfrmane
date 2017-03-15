@@ -18,7 +18,11 @@ $(document).ready(function(){
 		     }
 		 });
 	});
+
 });
+
+$('#myModal').modal('show');
+
 //Lesly
 $ ('#carousel').carousel({interval : 2000}) ;
 
