@@ -1,7 +1,7 @@
 body {
 	padding-top: 70px;
-	background-image:url(../images/fond2.jpg);
-	background-repeat: round;
+	background-image:url(../images/fond7.jpg);
+	background-size: contain;
 	display:flex;
 	justify-content:center;
 }
@@ -19,7 +19,7 @@ footer{
 }
 #contenutotal{
 
-	background-color:rgba(0,0,0,0.4);
+	/*background-color:rgba(0,0,0,0.4);
 	/*border:1px dashed lightgrey;*/
 	margin-bottom:20px;
 }
@@ -160,22 +160,40 @@ h3{
 	right:10px;
 }
 
-/*page MFR*/
+/**************page MFR***************/
 
-.texte{
+.text{
 	color: white;
-	font-size: 14px;
+	font-size: 16px;
 
 }
 .MFR{
-	color: #F9B200 ;
+	color: #F9B200;
+
 }
 .Alternance{
 	color:#5CB85C;
+	text-align: center;
 }
 .Presentation{
 	text-align: center;
 }
+.spécialité{
+	color:#F9B200;
+}
+.glyphicon glyphicon-hand-right{
+	 
+}
+#image{
+	width: 0px;
+	height: 60px;
+	float: left;
+	}
+#right-text{
+	float: right;
+	width: 50%;
+}
+/********************************************/
 
 .formation{
 	color : white;
