@@ -129,28 +129,14 @@ form {
 form div + div {
 	margin-top: 1em;
 }
-input:invalid {
-	border: 1px solid red;
-}
-input:valid {
-	border: 1px solid green;
-}
-.button{
-	text-align: center;
-}
+
 label {
 	/* To make sure that all labels have the same size and are properly aligned*/
 	display: inline-block;
 	width: 150px;
 	text-align: right;
 }
-.invalid{
-	color:red;
-}
-.valid{
-	color: green
-	font-size:17px;
-}
+
 h3{
 	color:#F9B200 !important;
 }
@@ -198,12 +184,14 @@ h3{
 legend {
 	color: white;
 }
-.checkbox{
-
-
-}
 .boite{
 	color: black;
+	
+}
+
+#submitbutton{
+	position:relative;
+	top:-27px;
 }
 /*Debut Modal*/
 #myModal{
