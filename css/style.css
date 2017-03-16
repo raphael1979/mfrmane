@@ -193,3 +193,14 @@ legend {
 #modalP{
 	color:black;
 }
+.emptyspace{
+	height: 15px;
+}
+
+#formationDEA{
+	padding-left: 5%;
+}
+
+.divDEA{
+	margin-left: -40px;
+}
