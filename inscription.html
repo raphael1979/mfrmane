@@ -160,37 +160,35 @@
 							</fieldset>
 							<fieldset class="checkbox">
 								<legend>Formations</legend>
-								<ul>
-									<li><input type="checkbox" name="choix1" value="1">4ème - 3ème</li>
-									<li><input type="checkbox" name="choix2" value="2">Bac Pro servives Aux Personnes et Aux territoires (SAPAT)</li>
-									<li><input type="checkbox" name="choix3" value="3">Diplômes d'Etat d'Accompagnement Educatif et Social</li>
-									<li><input type="checkbox" name="choix4" value="4">Validation des Aquis de l'expérience pour le diplôme d'accompagnement Educatif et Social</li>
-								</ul>
-							</fieldset>
-							<fieldset>
-								<legend>Observations</legend>
-								<textarea class="boite" rows="5" cols="50" id="hobbys" name="hobbys" required placeholder="Max 200 caractères ..."></textarea>
-							</fieldset>
-							<fieldset>
-								<legend>Comment avez-vous découvert les Maisons Familiales Rurales ?</legend>
-								<select class="boite">
-									<option value="" selected>CIO</option>
-									<option value="valeurunique">ONISEP</option>
-									<option value="2evaleurunique">Internet</option>
-									<option value="3evaleurunique">Collège ou Lycée</option>
-									<option value="4evaleurunique">Par relation</option>
-								</select>
-							</fieldset>		
-							<div class="button">
-								<input type="submit" class="boite" value="envoyer" id="envoyer">
-								<input type="reset" class="boite" value="effacer tout">
-							</div>
-						</form>
+								<ul class="list-unstyled">
+									<li><input type="radio" class="boite" name="choix" autocomplete="off" value="1">  4ème - 3ème</li>
+									<li><input type="radio" class="boite" name="choix" autocomplete="off" value="2">  Bac Pro servives Aux Personnes et Aux territoires (SAPAT)</li>
+									<li><input type="radio" class="boite" name="choix" autocomplete="off" value="3">  Diplômes d'Etat d'Accompagnement Educatif et Social</li>
+									<li><input type="radio" class="boite" name="choix" autocomplete="off" value="4"> Validation des Aquis de l'expérience pour le diplôme d'accompagnement Educatif et Social</li>
+								</fieldset>
+								<fieldset>
+									<legend>Observations</legend>
+									<textarea class="boite" rows="5" cols="45" id="hobbys" name="hobbys" required placeholder="Max 200 caractères ..."></textarea>
+								</fieldset>
+								<fieldset>
+									<legend>Comment avez-vous découvert les Maisons Familiales Rurales ?</legend>
+									<select class="boite">
+										<option value="" selected>CIO</option>
+										<option value="valeurunique">ONISEP</option>
+										<option value="2evaleurunique">Internet</option>
+										<option value="3evaleurunique">Collège ou Lycée</option>
+										<option value="4evaleurunique">Par relation</option>
+									</select>
+								</fieldset>		
+								<div class="button">
+									<button type="submit" id="submitbutton" class="pull-right btn btn-primary">Envoyer</button>
+								</div>
+							</form>
+						</div>
 					</div>
-				</div>
-				<div id="aside" class="col-xs-4 text-right">
+					<div id="aside" class="col-xs-4 text-right">
 
-					<!-- <div class="row"> -->
+						<!-- <div class="row"> -->
 					<!-- <form class="navbar-form navbar-right inline-form">
 						<div class="form-group">
 							<input type="search" class="input-sm form-control" placeholder="Recherche">
@@ -278,7 +276,7 @@
 			<li> <a href="#">Plan du site</a>    |</li>
 			<li> <a href="#">Nos partenaires</a></li>
 		</ul>
-		
+		<img src="images/reussir_autrement.png" alt="reussir_autrement" title="reussir_autrement" id="reussir"/>		
 	</footer>
 </div>
 <!-- fin code thibault -->

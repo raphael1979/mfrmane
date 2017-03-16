@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>MFR mane</title>
+	<title>MFR Mane</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -22,15 +22,24 @@
 		</div> -->
 		<!-- fin code gena -->
 		<!-- code navbar raf -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container nav-center">
+
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logomfr_360.png" alt="Logo_page" title="Accueil" id="logo"/>
+					</a>
+				</div>
 				<div class="collapse navbar-collapse">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="#">
-							<img src="images/logomfr_360.png" alt="Logo_page" title="Accueil" id="logo"/>
-						</a>
-					</div>
 					<ul class="nav navbar-nav">
+						<li><a href="index.html">ACCUEIL</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="toolbar" aria-haspopup="true" aria-expanded="false">MFR <span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -41,7 +50,7 @@
 								<li><a href="#">Locations-Hébergement</a></li>
 							</ul>
 						</li>
-						<li class="dropdown-toggle"><a href="#">ACTUALITE</a></li>
+						<li class="dropdown-toggle"><a href="actualites.html">ACTUALITE</a></li>
 						<li class= "dropdown">
 							<a ref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FORMATION <span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -62,14 +71,15 @@
 								<li><a href="#">Financement</a></li>
 								<li><a href="#">Administratif</a></li>
 								<li><a href="#">Résultat</a></li>
-								<li><a href="#">Inscription</a></li>
+								<li><a href="inscription.html">Inscription</a></li>
 							</ul>
 						</li>
 						<li class="dropdown-toggle"><a href="#">CONTACT</a></li>
+
 					</ul>
-				</div>
+				</div><!--/.nav-collapse -->
 			</div>
-		</nav>
+		</div>
 		<!-- fin code navbar raf -->
 		<!-- code Lesly -->
 		<div id="conteneur" class="row">
@@ -77,14 +87,24 @@
 				<!-- essaie -->
 				<div id="content" class="col-xs-12">
 					<div>
-	<h1 class= "MFR">MFR Mane</h1>
-	<h2 class= "Alternance">L'alternance à Mane</h2>
-	<h3 class= "Presentation">Présentation de notre établissement</h3>
-</div>
-<div>
-	<img src = "images/images2.jpg"/><span>La MFR de Mane est un établissement privé, régi par la loi du 1er juillet 1901, sous contrat avec le ministère de l'Agriculture. Elle forme aujourd'hui près de 100 jeunes dans des filières de formation allant de la 4ème au BEPA. Elle dispense également des formations dans le secteur sanitaire et social comme le Diplôme d'Etat d'Auxiliaire de Vie Sociale (DEAVS) en formation continue ou par apprentissage car elle est également antenne CFA (centre de Formation d'Apprentis) des MFR. </span>
+						<h1 class= "Alternance">MFR Mane</h1>
+						
+						<h3 class= "Presentation">Présentation de notre établissement</h3>
+					</div>
+					<div>
+						<img src = "images/image2.jpg"/>
+						<p class= "texte">La Maison Familiale Rurale de Mane est une association de familles loi 1901 gérant à la fois un établissement d'enseignement agricole privé sous contrat avec le Ministère de l'Agriculture, une antenne CFA et un organisme de formation continue.</p>
+						<p>La MFR s'est spécialisée dans les formations permettant</p>
 
-</div>
+						<P class= "texte">
+							<span class="glyphicon glyphicon-send"></span> de trouver son projet professionnel (4ème et 3ème de l'enseignement agricole) <br />
+							<span class="glyphicon glyphicon-send"></span> d'accéder aux métiers des services aux personnes (BEPA Services Aux Personnes)<br />
+							<span class="glyphicon glyphicon-send"></span> de se réinsérer professionnellement dans le secteur sanitaire et social et de se qualifier (DEAVS, DEAMP et VAE )
+						</p>
+
+						
+
+					</div>
 
 				</div>
 			</div>
@@ -183,7 +203,7 @@
 			<li> <a href="#">Plan du site</a>    |</li>
 			<li> <a href="#">Nos partenaires</a></li>
 		</ul>
-		
+		<img src="images/reussir_autrement.png" alt="reussir_autrement" title="reussir_autrement" id="reussir"/>		
 	</footer>
 </div>
 <!-- fin code thibault -->

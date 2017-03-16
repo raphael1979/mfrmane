@@ -22,15 +22,23 @@
 		</div> -->
 		<!-- fin code gena -->
 		<!-- code navbar raf -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container nav-center">
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logomfr_360.png" alt="Logo_page" title="Accueil" id="logo"/>
+					</a>
+				</div>
 				<div class="collapse navbar-collapse">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="#">
-							<img src="images/logomfr_360.png" alt="Logo_page" title="Accueil" id="logo"/>
-						</a>
-					</div>
 					<ul class="nav navbar-nav">
+						<li><a href="index.html">ACCUEIL</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="toolbar" aria-haspopup="true" aria-expanded="false">MFR <span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -41,7 +49,7 @@
 								<li><a href="#">Locations-Hébergement</a></li>
 							</ul>
 						</li>
-						<li class="dropdown-toggle"><a href="#">ACTUALITE</a></li>
+						<li class="dropdown-toggle"><a href="actualites.html">ACTUALITE</a></li>
 						<li class= "dropdown">
 							<a ref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FORMATION <span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -62,23 +70,15 @@
 								<li><a href="#">Financement</a></li>
 								<li><a href="#">Administratif</a></li>
 								<li><a href="#">Résultat</a></li>
-								<li><a href="#">Inscription</a></li>
+								<li><a href="inscription.html">Inscription</a></li>
 							</ul>
 						</li>
 						<li class="dropdown-toggle"><a href="#">CONTACT</a></li>
 
 					</ul>
-
-				</div>
+				</div><!--/.nav-collapse -->
 			</div>
-
-			<div class="panel-body">
-				<fieldset>
-					<a href="admin/pages/login.html" class="btn btn-lg btn-success btn-block">Login
-					</a>
-				</fieldset>
-			</div>
-		</nav>
+		</div>
 		<!-- fin code navbar raf -->
 		<!-- code Lesly -->
 		<div id="conteneur" class="row">
@@ -108,6 +108,7 @@
 						<a href="depliantbacpro.pdf">Télécharger la fiche de la formation<img src="images/logopdf.png" alt="logo-pdf"></a>
 					<div class="emptyspace"></div>
 					</div>
+
 						<div class="">
 							<img src="images/bacpro1.png">
 						</div>
@@ -116,11 +117,11 @@
 							<img src="images/bacpro2.png">
 						</div>
 
-				</div>
 			</div>
-			<div id="aside" class="col-xs-4 text-right">
+		</div>
+		<div id="aside" class="col-xs-4 text-right">
 
-				<!-- <div class="row"> -->
+			<!-- <div class="row"> -->
 					<!-- <form class="navbar-form navbar-right inline-form">
 						<div class="form-group">
 							<input type="search" class="input-sm form-control" placeholder="Recherche">
@@ -195,7 +196,7 @@
 		<!-- code bouton gena -->
 		<!-- elements indépendants de la structure de la page -->
 		<section>
-			<button id="btn_up" ">
+			<button id="btn_up">
 				<span  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
 			</button>
 		</section>
