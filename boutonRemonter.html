@@ -18,13 +18,13 @@
 		</div>
 		<div style="height: 400px; background-color: lightgrey">Paragraphe 4
 			<br />
-			<a href="#hautDePage"><img scr="up.png"></a>
+			<a href="#hautDePage"><img scr="up.png" alt="bouton up"></a>
 			<br />
 			<a href="#hautDePage">UP</a>
 			<br />
 			<button value="Nom du bouton" OnClick="window.location.href='#hautDePage'">UP</button>
 			<button id="btn_up" style="display: none; position:fixed; bottom:10px; right: 10px;"><span  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button>
-			
+
 		</div>
 
 	</section>
@@ -35,7 +35,7 @@
 		  $('#btn_up').click(function() {
 		    $('html,body').animate({scrollTop: 0}, 'slow');
 		  });
-		  
+
 		   $(window).scroll(function(){
 		   	//console.log($(window).height(), $(window).scrollTop());
 		     if($(window).scrollTop() < 100){
