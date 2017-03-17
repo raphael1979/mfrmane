@@ -11,11 +11,10 @@ footer{
 	display:flex;
 	justify-content: center;
 	margin-left:0 !important;
-	margin-right:0 !important;
-	max-width:1500px;
+	margin-right:0px !important;
 }
 #containertotal{
-	max-width: 1500px;
+	max-width: 1300px;
 }
 #contenutotal{
 
@@ -34,8 +33,12 @@ footer{
 	height:105px;
 	position:fixed;
 	top:5px;
-	left:50px;
+	left:0px;
 }
+/*Debut Navbar*/
+.collapse{
+}
+
 .navbar{
 
 }
@@ -44,12 +47,15 @@ footer{
 }
 .navbar-nav{
 	justify-content:center;
+	padding-left: 225px;
 
 
 }
 .navbar-default .navbar-nav>li>a {
 	color: #F9B200;
+	font-weight: bold;
 }
+/*Fin Navbar*/
 .titre {
 	color:#F9B200;
 	margin-left: auto;
@@ -65,6 +71,8 @@ footer{
 	height: 100px;
 	background-color: grey
 }
+
+/*Debut Bouton "Retour en haut de page*/
 #btn_up {
 	display: none;
 	position:fixed;
@@ -73,6 +81,7 @@ footer{
 	right: 10px;
 	z-index: 5;
 }
+/*Fin Bouton "Retour en haut de page"*/
 p {
 	margin: 5%;
 	font-size: 17px;
@@ -112,7 +121,7 @@ p {
 
 .formulaire {
 	text-align: center;
-	color: white;
+	color: #F9B200;
 }
 
 h1{
@@ -139,56 +148,56 @@ label {
 	text-align: right;
 }
 
-h3{
+/*h3{
 	color:#F9B200 !important;
-}
-.panel-body{
+	}*/
+	.panel-body{
 
-}
+	}
 
-/**************page MFR***************/
+	/**************page MFR***************/
 
-.text{
-	color: white;
-	font-size: 16px;
+	.text{
+		color: white;
+		font-size: 16px;
 
-}
-.MFR{
-	color: #F9B200;
+	}
+	.MFR{
+		color: #F9B200;
 
-}
-.Alternance{
-	color:#5CB85C;
-	text-align:center;
-}
-.Presentation{
-	text-align: center;
-}
-.spécialité{
-	color:#F9B200;
-}
+	}
+	.Alternance{
+		color:#5CB85C;
+		text-align:center;
+	}
+	.Presentation{
+		text-align: center;
+	}
+	.spécialité{
+		color:#F9B200;
+	}
 
-.glyphicon.glyphicon-hand-right{
-	color: #F9B200;
-}
-.chapeau{
-	margin-top: 45px;
-}
-.chapeau img {
-	box-sizing: border-box;
-	display: inline-block;
-	margin: 0;
-	vertical-align: top;
-	width: 40%;
-	padding-left: 40px;
-}
-.chapeau p{
-	box-sizing: border-box;
-	display: inline-block;
-	vertical-align: top;
-	width: 59%;
-	margin: 0;
-	padding-left: 20px;
+	.glyphicon.glyphicon-hand-right{
+		color: #F9B200;
+	}
+	.chapeau{
+		margin-top: 45px;
+	}
+	.chapeau img {
+		box-sizing: border-box;
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+		width: 40%;
+		padding-left: 40px;
+	}
+	.chapeau p{
+		box-sizing: border-box;
+		display: inline-block;
+		vertical-align: top;
+		width: 59%;
+		margin: 0;
+		padding-left: 20px;
 	/*margin-top: 0;
 	margin-bottom: 0;*/
 }
@@ -223,7 +232,7 @@ h3{
 }
 /*lesly*/
 .page-header{
-	color: white;
+	color:#F9B200;
 }
 .controls{
 	color: white;
@@ -231,7 +240,7 @@ h3{
 }
 
 legend {
-	color: white;
+	color: #F9B200;
 }
 .boite{
 	color: black;
@@ -250,6 +259,7 @@ legend {
 	width:400px;
 	height:260px;
 	background-color:white;
+	border-radius: 20px;
 }
 #modalP{
 	color:black;
@@ -270,10 +280,49 @@ legend {
 
 /*Fin Modal*/
 
-.collapse{
-}
-
 .telechargement{
 	color:white;
 	text-decoration: underline;
+}
+.titre2 {
+	color: red;
+}
+.titre3 {
+	color: white;
+}
+
+/*Debut Footer*/
+
+footer{
+	background-color: #F9B200;
+	text-align : center;
+	display:flex;
+	justify-content: center;
+	margin-left:0 !important;
+	margin-right:0 !important;
+	width:100%;
+}
+
+.blabla{
+	position:relative;
+	left:150px;
+	top:20px;
+
+}
+.footerlink{
+	color:black;
+}
+/*Fin Footer*/
+
+/*Connexion*/
+#formulaireconnexion{
+	width:100%;
+}
+#remember{
+	color:black;
+}
+#check{
+	display:flex;
+	justify-content: center;
+
 }
