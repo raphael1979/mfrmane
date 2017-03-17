@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 body {
 	padding-top: 70px;
 	background-image:url(../images/fond7.jpg);
 	background-size: contain;
 	display:flex;
+	flex-direction: column;
 	justify-content:center;
+	font-family: 'Ubuntu', sans-serif;
+	align-items:center;
 }
 footer{
 	background-color: #F9B200;
@@ -12,6 +16,7 @@ footer{
 	justify-content: center;
 	margin-left:0 !important;
 	margin-right:0px !important;
+	max-width:1300px;
 }
 #containertotal{
 	max-width: 1300px;
@@ -28,9 +33,6 @@ footer{
 #logo {
 	height:100px;
 	margin-top:-10px;
-	position:fixed;
-	left: 30px;
-	height:105px;
 	position:fixed;
 	top:5px;
 	left:0px;
@@ -150,54 +152,57 @@ label {
 
 h3{
 	color:#F9B200 !important;
-	}
-	.panel-body{
+}
 
-	}
+.panel-body{
 
-	/**************page MFR***************/
+}
 
-	.text{
-		color: white;
-		font-size: 16px;
+/**************page MFR***************/
 
-	}
-	.MFR{
-		color: #F9B200;
+.text{
+	color: white;
+	font-size: 16px;
 
-	}
-	.Alternance{
-		color:#5CB85C;
-		text-align:center;
-	}
-	.Presentation{
-		text-align: center;
-	}
-	.spécialité{
-		color:#F9B200;
-	}
+}
+.MFR{
+	color: #F9B200;
 
-	.glyphicon.glyphicon-hand-right{
-		color: #F9B200;
-	}
-	.chapeau{
-		margin-top: 45px;
-	}
-	.chapeau img {
-		box-sizing: border-box;
-		display: inline-block;
-		margin: 0;
-		vertical-align: top;
-		width: 40%;
-		padding-left: 40px;
-	}
-	.chapeau p{
-		box-sizing: border-box;
-		display: inline-block;
-		vertical-align: top;
-		width: 59%;
-		margin: 0;
-		padding-left: 20px;
+}
+.Alternance{
+	color:#5CB85C;
+	text-align:center;
+}
+.Presentation{
+	text-align: center;
+	color:#F9B200;
+}
+.spécialité{
+	color:#F9B200;
+}
+
+.glyphicon.glyphicon-hand-right{
+	color: #F9B200;
+}
+.chapeau{
+	margin-top: 45px;
+}
+.chapeau img {
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+	width: 40%;
+	padding-left: 40px;
+}
+.chapeau p{
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	width: 59%;
+	margin: 0;
+	padding-left: 20px;
+>>>>>>> 850696351dee0b40b43c2bb4d4f3fae93e9317f4
 	/*margin-top: 0;
 	margin-bottom: 0;*/
 }
@@ -285,7 +290,10 @@ legend {
 	text-decoration: underline;
 }
 .titre2 {
-	color: red;
+	font-style: italic;
+	/*	margin: 50px;*/
+	text-align: center;
+
 }
 .titre3 {
 	color: white;
@@ -332,4 +340,17 @@ footer{
 #listformation ul li
 {
    list-style-type: none;
+}
+/*Fin Connexion*/
+
+
+#contenucontact{
+	display:flex;
+}
+
+#infocontact{
+	margin-left:30px;
+}
+.actualites{
+	color:white;
 }
