@@ -218,6 +218,7 @@ legend {
 	width:400px;
 	height:260px;
 	background-color:white;
+	border-radius: 20px;
 }
 #modalP{
 	color:black;
