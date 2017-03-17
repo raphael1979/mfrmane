@@ -22,36 +22,43 @@
 </div> -->
 <!-- fin code gena -->
 <!-- code navbar raf -->
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container nav-center">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logomfr_360.png" alt="Logo_page" title="Accueil" id="logo"/>
+			</a>
+		</div>
 		<div class="collapse navbar-collapse">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">
-					<img src="images/logomfr_360.png" alt="Logo_page" title="Accueil" id="logo"/>
-				</a>
-			</div>
 			<ul class="nav navbar-nav">
 				<li><a href="index.html">ACCUEIL</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="toolbar" aria-haspopup="true" aria-expanded="false">MFR <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">C'est quoi la MFR</a></li>
-						<li><a href="#">La MFR de Mane</a></li>
+						<li><a href="mfr.html">La MFR de Mane</a></li>
 						<li><a href="#">Le conseil d'administration</a></li>
 						<li><a href="#">Le personnel</a></li>
 						<li><a href="#">Locations-Hébergement</a></li>
 					</ul>
 				</li>
-				<li class="dropdown-toggle"><a href="#">ACTUALITE</a></li>
+				<li class="dropdown-toggle"><a href="actualites.html">ACTUALITE</a></li>
 				<li class= "dropdown">
 					<a ref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FORMATION <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li class="dropdown-header">Formation Initiale</li>
-						<li><a href="#">4ème et 3ème</a></li>
-						<li><a href="#">S.A.P.A.T</a></li>
+						<li><a href="formation4e3e.html">4ème et 3ème</a></li>
+						<li><a href="bacpro.html">S.A.P.A.T</a></li>
 						<li class="dropdown-header">Formation Professionelle</li>
-						<li><a href="#">Parcours Préparatoire</a></li>
-						<li><a href="#">Diplômes d'Etat</a></li>
+						<li><a href="parcours-preparatoire-sanitaire-et-social.html">Parcours Préparatoire</a></li>
+						<li><a href="diplome-detat-daccompagnement-educatif-et-social.html">Diplômes d'Etat</a></li>
 						<li><a href="#">Formations modulaires</a></li>
 						<li><a href="#">Formations Privées</a></li>
 						<li><a href="#">Accompagnement V.A.E</a></li>
@@ -63,21 +70,17 @@
 						<li><a href="#">Financement</a></li>
 						<li><a href="#">Administratif</a></li>
 						<li><a href="#">Résultat</a></li>
-						<li><a href="#">Inscription</a></li>
+						<li><a href="inscription.html">Inscription</a></li>
 					</ul>
 				</li>
-				<li class="dropdown-toggle"><a href="#">CONTACT</a></li>
-			</ul>
-		</div>
-	</div>
+				<li class="dropdown-toggle"><a href="galerie.html">GALERIE</a></li>
+				<li class="dropdown-toggle"><a href="contact.html">CONTACT</a></li>
 
-	<div class="panel-body">
-		<fieldset>
-			<a href="admin/pages/login.html" class="btn btn-lg btn-success btn-block">Login
-			</a>
-		</fieldset>
+			</ul>
+		</div><!--/.nav-collapse -->
 	</div>
-</nav>
+</div>
+
 <!-- fin code navbar raf -->
 <!-- code Lesly -->
 <div id="conteneur" class="row">
@@ -194,7 +197,12 @@
 		</div>
 	</div>
 	<div id="aside" class="col-xs-4 text-right">
-
+		<div class="panel-body">
+			<fieldset>
+				<a href="admin/pages/login.html" class="btn btn-lg btn-success btn-block">Login
+				</a>
+			</fieldset>
+		</div>
 		<!-- <div class="row"> -->
 		<!-- <form class="navbar-form navbar-right inline-form">
 		<div class="form-group">
@@ -277,15 +285,19 @@ Connexion
 </div>
 <!-- code Thibault -->
 <footer class="row">
-	<div class="col-xs-12"></div>
-	<ul class ="list-unstyled list-inline col-xs-4 blabla">
-		<li id="mentions"> <a href="#">Mentions légales</a>  | </li>
-		<li> <a href="#">Plan du site</a>    |</li>
-		<li> <a href="#">Nos partenaires</a></li>
-	</ul>
+	<div class="col-xs-12">
+		
+		<ul class ="list-unstyled list-inline col-xs-4 blabla">
+			<li id="mentions"> <a class="footerlink" href="#">Mentions légales</a>  | </li>
+			<li> <a class="footerlink" href="#">Plan du site</a>    |</li>
+			<li> <a class="footerlink" href="#">Nos partenaires</a></li>
+		</ul>
+	</div>
+	
+	
 	<img src="images/reussir_autrement.png" alt="reussir_autrement" title="reussir_autrement" id="reussir"/>
+
 </footer>
-</div>
 <!-- fin code thibault -->
 
 <!-- fin code gena -->
