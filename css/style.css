@@ -23,6 +23,12 @@ footer{
 	/*border:1px dashed lightgrey;*/
 	margin-bottom:20px;
 }
+h1{
+	text-align: center;
+	color:#F9B200;
+	
+
+}
 #mentions{
 	text-align: center;
 }
@@ -51,7 +57,20 @@ footer{
 .navbar-default .navbar-nav>li>a {
 	color: #F9B200;
 	font-weight: bold;
+
+
 }
+
+.navbar-default .navbar-nav>li>a {
+	color: #F9B200;
+	font-weight: bold;
+
+}
+/*.navbar-default .navbar-nav>li>a:hover {
+	background-color: #5CB85C;*/
+
+}
+
 .titre {
 	color:#F9B200;
 	margin-left: auto;
@@ -117,11 +136,7 @@ p {
 	color: white;
 }
 
-h1{
-	text-align: left;
-	color:#F9B200;
 
-}
 form {
 	margin: 0 auto;
 	width: 450px;
@@ -203,16 +218,7 @@ h3{
 .decalage1 .glyphicon.glyphicon-circle-arrow-right{
 	color: #5CB85C;
 }
-/*
-#image{
-	width: 0px;
-	height: 60px;
-}
-#right-text{
-	float: right;
-	width: 50%;
-}
-*/
+
 /********************************************/
 
 .formation{
