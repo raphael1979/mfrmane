@@ -148,9 +148,9 @@ label {
 	text-align: right;
 }
 
-/*h3{
+h3{
 	color:#F9B200 !important;
-	}*/
+	}
 	.panel-body{
 
 	}
@@ -207,7 +207,7 @@ label {
 	display: list-item;
 	list-style: none;
 }
-.decalage1 .glyphicon.glyphicon-circle-arrow-right{
+ .glyphicon.glyphicon-circle-arrow-right{
 	color: #5CB85C;
 }
 /*
@@ -324,5 +324,12 @@ footer{
 #check{
 	display:flex;
 	justify-content: center;
+}
+.parcours-prepa, #listformation{
+	color:white;
+}
 
+#listformation ul li
+{
+   list-style-type: none;
 }
