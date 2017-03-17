@@ -296,3 +296,17 @@ footer{
 	color:black;
 }
 /*Fin Footer*/
+
+/*Connexion*/
+#formulaireconnexion{
+	width:100%;
+}
+#remember{
+	color:black;
+}
+#check{
+	display:flex;
+	justify-content: center;
+
+
+}
