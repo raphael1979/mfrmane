@@ -167,18 +167,50 @@ h3{
 .spécialité{
 	color:#F9B200;
 }
-.glyphicon glyphicon-hand-right{
-	
+
+.glyphicon.glyphicon-hand-right{
+	color: #F9B200;
 }
+.chapeau{
+	margin-top: 45px;
+}
+.chapeau img {
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+	width: 40%;
+	padding-left: 40px;
+}
+.chapeau p{
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	width: 59%;
+	margin: 0;
+	padding-left: 20px;
+	/*margin-top: 0;
+	margin-bottom: 0;*/
+}
+.decalage1{
+	margin-left: 4em;
+	margin-top: 1.2em;
+	display: list-item;
+	list-style: none;
+}
+.decalage1 .glyphicon.glyphicon-circle-arrow-right{
+	color: #5CB85C;
+}
+/*
 #image{
 	width: 0px;
 	height: 60px;
-	float: left;
 }
 #right-text{
 	float: right;
 	width: 50%;
 }
+*/
 /********************************************/
 
 .formation{
@@ -240,4 +272,8 @@ legend {
 /*Fin Modal*/
 
 .collapse{
+}
+
+.img4.3{
+	margin-left: -2px;
 }
