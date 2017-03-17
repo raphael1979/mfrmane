@@ -5,12 +5,13 @@
 	<title>MFR mane</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap-gallery.css">
 
 </head>
 <body>
 	<!-- code texte gena -->
 	<div id="containertotal">
-		<div id="contenutotal">		
+		<div id="contenutotal">
 			<!-- code navbar raf -->
 			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="container">
@@ -74,35 +75,73 @@
 			<!-- code Lesly -->
 			<div id="conteneur" class="row">
 				<div id="contenu" class="col-xs-8">
-
 					<h1 class="page-header">Galerie</h1>
+					<div class="row">
+						<div class="col-xs-8">
+							<h3>Galerie 1</h3>
 
-					<div class="col-xs-4">
-						<a href="images/imagelibre.png" class="thumbnail" data-gallery="gallery1">
-							<img src="images/imagelibre2.png" alt="#" />
-						</a>
-					</div>	
-					<div class="col-xs-4">
-						<a href="images/imagelibre2.png" class="thumbnail" data-gallery="gallery1">
-							<img src="images/imagelibre.png" alt="#" />
-						</a>
-					</div>
-					<div class="col-xs-4">
-						<a href="images/solidarite.jpg" class="thumbnail" data-gallery="gallery1">
-							<img src="images/image2.jpg" alt="#" />
-						</a>
-					</div>
+							<div class="row">
+								<div class="col-xs-6">
+									<a href="images/imagelibre.png" class="thumbnail" data-gallery="gallery1">
+										<img src="images/imagelibre2.png" alt="#" />
+									</a>
+								</div>
 
+								<div class="col-xs-6">
+									<a href="images/imagelibre2.png" class="thumbnail" data-gallery="gallery1">
+										<img src="images/imagelibre.png" alt="#" />
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-xs-8">
+							<h3>Galerie 2</h3>
+
+							<div class="row">
+								<div class="col-xs-6">
+									<a href="images/solidarite.jpg" class="thumbnail" data-gallery="gallery2">
+										<img src="images/solidarite2.jpg" alt="#" />
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="images/img-sani-soci.jpg" class="thumbnail" data-gallery="gallery2">
+										<img src="images/solidarite.jpg" alt="#" />
+									</a>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
 
 				</div>
 
-				<div id="aside" class="col-xs-4 text-right">		
-					<div class="panel-body">
-						<fieldset>
-							<a href="admin/pages/login.html" class="btn btn-lg btn-success btn-block">Login
-							</a>
-						</fieldset>
-					</div>		
+				<div id="aside" class="col-xs-4 text-right">
+					<div class="login-panel panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Connexion</h3>
+						</div>
+						<div class="panel-body">
+							<form role="form" id="formulaireconnexion">
+								<fieldset>
+									<div class="form-group">
+										<input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+
+										<input class="form-control" placeholder="Password" name="password" type="password" value="">
+
+
+										<input name="remember" type="checkbox" value="Remember Me">
+										<span id="remember">Se souvenir de moi</span>
+
+
+									</div>
+									<a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
+								</fieldset>
+							</form>
+						</div>
+					</div>
 					<div class="well">
 						<div class="input-group">
 							<input type="text" class="form-control" value="Rechercher">
@@ -114,7 +153,7 @@
 							</span>
 						</div>
 
-					</div>			
+					</div>
 					<!-- Facebook feed -->
 					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMfrMane%2F&tabs=timeline&width=450&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1752301448432852" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					<div class="list-group" id="news">
@@ -149,35 +188,40 @@
 
 				</div>
 			</div>
-
-
-
-
-			<!-- code bouton gena -->
-			<!-- elements indépendants de la structure de la page -->
-			<section>
-				<button id="btn_up" ">
-					<span  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
-				</button>
-			</section>
-		</div>
-		<!-- code Thibault -->
-		<footer class="row">
-			<div class="col-xs-12"></div>
-			<ul class ="list-unstyled list-inline col-xs-4 blabla">
-				<li id="mentions"> <a href="#">Mentions légales</a>  | </li>
-				<li> <a href="#">Plan du site</a>    |</li>
-				<li> <a href="#">Nos partenaires</a></li>
-			</ul>
-
-		</footer>
+			<button id="btn_up">
+				<span  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+			</button>
+		</section>
 	</div>
-	<!-- fin code thibault -->
+	<!-- code Thibault -->
+	<footer class="row">
 
-	<!-- fin code gena -->
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+		<div class="col-xs-12">
+
+			<ul class ="list-unstyled list-inline col-xs-4 blabla">
+				<li id="mentions"> <a class="footerlink" href="#">Mentions légales</a>  | </li>
+				<li> <a class="footerlink" href="#">Plan du site</a>    |</li>
+				<li> <a class="footerlink" href="#">Nos partenaires</a></li>
+			</ul>
+		</div>
+
+
+		<img src="images/reussir_autrement.png" alt="reussir_autrement" title="reussir_autrement" id="reussir"/>
+
+
+	</footer>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script src="js/bootstrap-gallery.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('#thumbnail').bootstrapGallery();
+	});
+</script>
 
 </body>
 </html>
