@@ -276,3 +276,17 @@ legend {
 .img4.3{
 	margin-left: -2px;
 }
+
+#reussir{
+	position:relative;
+	right:19px;
+}
+#footercontent{
+	position:relative;
+	left:100px;
+	top:20px;
+
+}
+.footerlink{
+	color:black;
+}
