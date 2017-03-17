@@ -92,11 +92,28 @@
 				</div>
 			</div>
 			<div id="aside" class="col-xs-4 text-right">
-				<div class="panel-body">
-					<fieldset>
-						<a href="admin/pages/login.html" class="btn btn-lg btn-success btn-block">Login
-						</a>
-					</fieldset>
+				<div class="login-panel panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Connexion</h3>
+					</div>
+					<div class="panel-body">
+						<form role="form" id="formulaireconnexion">
+							<fieldset>
+								<div class="form-group">
+									<input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+
+									<input class="form-control" placeholder="Password" name="password" type="password" value="">
+									
+									
+									<input name="remember" type="checkbox" value="Remember Me">
+									<span id="remember">Se souvenir de moi</span>
+									
+									
+								</div>
+								<a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
+							</fieldset>
+						</form>
+					</div>
 				</div>
 				<!-- <div class="row"> -->
 					<!-- <form class="navbar-form navbar-right inline-form">
@@ -180,13 +197,18 @@
 	</div>
 	<!-- code Thibault -->
 	<footer class="row">
-		<div class="col-xs-12"></div>
-		<ul class ="list-unstyled list-inline col-xs-4 blabla">
-			<li id="mentions"> <a href="#">Mentions légales</a>  | </li>
-			<li> <a href="#">Plan du site</a>    |</li>
-			<li> <a href="#">Nos partenaires</a></li>
-		</ul>
-		<img src="images/reussir_autrement.png" alt="reussir_autrement" title="reussir_autrement" id="reussir"/>			
+		<div class="col-xs-12">
+			
+			<ul class ="list-unstyled list-inline col-xs-4 blabla">
+				<li id="mentions"> <a class="footerlink" href="#">Mentions légales</a>  | </li>
+				<li> <a class="footerlink" href="#">Plan du site</a>    |</li>
+				<li> <a class="footerlink" href="#">Nos partenaires</a></li>
+			</ul>
+		</div>
+		
+		
+		<img src="images/reussir_autrement.png" alt="reussir_autrement" title="reussir_autrement" id="reussir"/>
+
 	</footer>
 </div>
 <!-- fin code thibault -->

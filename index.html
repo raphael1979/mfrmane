@@ -148,46 +148,45 @@
 				</div>
 			</div>
 			<div id="aside" class="col-xs-4 text-right">
-			<!-- debut connexion -->
-			                <div class="login-panel panel panel-default">
-			                    <div class="panel-heading">
-			                        <h3 class="panel-title">Connexion</h3>
-			                    </div>
-			                    <div class="panel-body">
-			                        <form role="form">
-			                            <fieldset>
-			                                <div class="form-group">
-			                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
-			                                </div>
-			                                <div class="form-group">
-			                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
-			                                </div>
-			                                <div class="checkbox">
-			                                    <label>
-			                                        <input name="remember" type="checkbox" value="Remember Me">Souvenir de moi
-			                                    </label>
-			                                </div>
-			                                <!-- Change this to a button or input when using this as a form -->
-			                                <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
-			                            </fieldset>
-			                        </form>
-			                    </div>
-			                </div>
-			<!-- fin -->
-					<div class="well">
-						<div class="input-group">
-							<input type="text" class="form-control" value="Rechercher">
-							<span class="input-group-btn">
-								<button class="btn btn-default" type="button">
-									<span class="glyphicon glyphicon-search">
-									</span>
-								</button>
-							</span>
-						</div>
+				<!-- debut connexion -->
+				<div class="login-panel panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Connexion</h3>
+					</div>
+					<div class="panel-body">
+						<form role="form" id="formulaireconnexion">
+							<fieldset>
+								<div class="form-group">
+									<input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
 
+									<input class="form-control" placeholder="Password" name="password" type="password" value="">
+									
+									
+									<input name="remember" type="checkbox" value="Remember Me">
+									<span id="remember">Se souvenir de moi</span>
+									
+									
+								</div>
+								<a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+				<!-- fin -->
+				<div class="well">
+					<div class="input-group">
+						<input type="text" class="form-control" value="Rechercher">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button">
+								<span class="glyphicon glyphicon-search">
+								</span>
+							</button>
+						</span>
 					</div>
 
-					<!-- </div> -->
+				</div>
+
+				<!-- </div> -->
 <!--
 				<div>
 					<button id="connexion" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -249,17 +248,24 @@
 	<!-- fin code gena -->
 	<!-- code Thibault -->
 	<footer class="row">
-		<div class="col-xs-12"></div>
-		<ul class ="list-unstyled list-inline col-xs-4 blabla">
-			<li id="mentions"> <a href="#">Mentions légales</a>  | </li>
-			<li> <a href="#">Plan du site</a>    |</li>
-			<li> <a href="#">Nos partenaires</a></li>
-		</ul>
+		
+		<div class="col-xs-12">
+			
+			<ul class ="list-unstyled list-inline col-xs-4 blabla">
+				<li id="mentions"> <a class="footerlink" href="#">Mentions légales</a>  | </li>
+				<li> <a class="footerlink" href="#">Plan du site</a>    |</li>
+				<li> <a class="footerlink" href="#">Nos partenaires</a></li>
+			</ul>
+		</div>
+		
+		
 		<img src="images/reussir_autrement.png" alt="reussir_autrement" title="reussir_autrement" id="reussir"/>
+
+
 	</footer>
 
 	<!--modal-->
-	<div class="modal fade" id="myModal">
+	<!-- <div class="modal fade" id="myModal">
 		<div class="modal-header">
 			<a class="close" data-dismiss="modal">X</a>
 			<h3>Journée Portes Ouvertes</h3>
@@ -270,7 +276,7 @@
 		<div class="modal-footer">
 			<a href="actualites.html#portes" class="btn btn-success">En savoir plus...</a>
 		</div>
-	</div>
+	</div> -->
 	<!--fin modal-->
 </div>
 <!-- fin code thibault -->
