@@ -280,8 +280,9 @@ legend {
 
 /*Fin Modal*/
 
-.img4.3{
-	margin-left: -2px;
+.telechargement{
+	color:white;
+	text-decoration: underline;
 }
 .titre2 {
 	color: red;
