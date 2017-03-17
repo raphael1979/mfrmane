@@ -4,8 +4,10 @@ body {
 	background-image:url(../images/fond7.jpg);
 	background-size: contain;
 	display:flex;
+	flex-direction: column;
 	justify-content:center;
 	font-family: 'Ubuntu', sans-serif;
+	align-items:center;
 }
 footer{
 	background-color: #F9B200;
@@ -14,6 +16,7 @@ footer{
 	justify-content: center;
 	margin-left:0 !important;
 	margin-right:0px !important;
+	max-width:1300px;
 }
 #containertotal{
 	max-width: 1300px;
@@ -30,9 +33,6 @@ footer{
 #logo {
 	height:100px;
 	margin-top:-10px;
-	position:fixed;
-	left: 30px;
-	height:105px;
 	position:fixed;
 	top:5px;
 	left:0px;
@@ -331,4 +331,14 @@ footer{
 	display:flex;
 	justify-content: center;
 
+}
+/*Fin Connexion*/
+
+
+#contenucontact{
+	display:flex;
+}
+
+#infocontact{
+	margin-left:30px;
 }
