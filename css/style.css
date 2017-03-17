@@ -5,6 +5,14 @@ body {
 	display:flex;
 	justify-content:center;
 }
+footer{
+	background-color: #F9B200;
+	text-align : center;
+	display:flex;
+	justify-content: center;
+	margin-left:0 !important;
+	margin-right:0px !important;
+}
 #containertotal{
 	max-width: 1300px;
 }
@@ -39,11 +47,13 @@ body {
 }
 .navbar-nav{
 	justify-content:center;
+	padding-left: 225px;
 
 
 }
 .navbar-default .navbar-nav>li>a {
 	color: #F9B200;
+	font-weight: bold;
 }
 /*Fin Navbar*/
 .titre {
