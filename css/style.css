@@ -11,11 +11,10 @@ footer{
 	display:flex;
 	justify-content: center;
 	margin-left:0 !important;
-	margin-right:0 !important;
-	max-width:1500px;
+	margin-right:0px !important;
 }
 #containertotal{
-	max-width: 1500px;
+	max-width: 1300px;
 }
 #contenutotal{
 
@@ -34,8 +33,12 @@ footer{
 	height:105px;
 	position:fixed;
 	top:5px;
-	left:50px;
+	left:0px;
 }
+/*Debut Navbar*/
+.collapse{
+}
+
 .navbar{
 
 }
@@ -50,7 +53,9 @@ footer{
 }
 .navbar-default .navbar-nav>li>a {
 	color: #F9B200;
+	font-weight: bold;
 }
+/*Fin Navbar*/
 .titre {
 	color:#F9B200;
 	margin-left: auto;
@@ -66,6 +71,8 @@ footer{
 	height: 100px;
 	background-color: grey
 }
+
+/*Debut Bouton "Retour en haut de page*/
 #btn_up {
 	display: none;
 	position:fixed;
@@ -74,6 +81,7 @@ footer{
 	right: 10px;
 	z-index: 5;
 }
+/*Fin Bouton "Retour en haut de page"*/
 p {
 	margin: 5%;
 	font-size: 17px;
@@ -272,9 +280,6 @@ legend {
 
 /*Fin Modal*/
 
-.collapse{
-}
-
 .img4.3{
 	margin-left: -2px;
 }
@@ -283,4 +288,40 @@ legend {
 }
 .titre3 {
 	color: white;
+}
+
+/*Debut Footer*/
+
+footer{
+	background-color: #F9B200;
+	text-align : center;
+	display:flex;
+	justify-content: center;
+	margin-left:0 !important;
+	margin-right:0 !important;
+	width:100%;
+}
+
+.blabla{
+	position:relative;
+	left:150px;
+	top:20px;
+
+}
+.footerlink{
+	color:black;
+}
+/*Fin Footer*/
+
+/*Connexion*/
+#formulaireconnexion{
+	width:100%;
+}
+#remember{
+	color:black;
+}
+#check{
+	display:flex;
+	justify-content: center;
+
 }
