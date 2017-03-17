@@ -148,19 +148,32 @@
 				</div>
 			</div>
 			<div id="aside" class="col-xs-4 text-right">
-				<div class="panel-body">
-					<fieldset>
-						<a href="admin/pages/login.html" class="btn btn-lg btn-success btn-block">Login
-						</a>
-					</fieldset>
-				</div>
-				<!-- <div class="row"> -->
-					<!-- <form class="navbar-form navbar-right inline-form">
-						<div class="form-group">
-							<input type="search" class="input-sm form-control" placeholder="Recherche">
-							<button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
-						</div>
-					</form> -->
+			<!-- debut connexion -->
+			                <div class="login-panel panel panel-default">
+			                    <div class="panel-heading">
+			                        <h3 class="panel-title">Connexion</h3>
+			                    </div>
+			                    <div class="panel-body">
+			                        <form role="form">
+			                            <fieldset>
+			                                <div class="form-group">
+			                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+			                                </div>
+			                                <div class="form-group">
+			                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
+			                                </div>
+			                                <div class="checkbox">
+			                                    <label>
+			                                        <input name="remember" type="checkbox" value="Remember Me">Souvenir de moi
+			                                    </label>
+			                                </div>
+			                                <!-- Change this to a button or input when using this as a form -->
+			                                <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
+			                            </fieldset>
+			                        </form>
+			                    </div>
+			                </div>
+			<!-- fin -->
 					<div class="well">
 						<div class="input-group">
 							<input type="text" class="form-control" value="Rechercher">
